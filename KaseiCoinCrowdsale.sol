@@ -41,7 +41,8 @@ contract KaseiCoinCrowdsaleDeployer {
             KaseiCoinCrowdsale kasei_crowdsale = new KaseiCoinCrowdsale(1, wallet, token);   
 
         // Aassign the `KaseiCoinCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
-            kasei_crowdsale_address = address(KaseiCoinCrowdsale);
+            // kasei_crowdsale_address = address(KaseiCoinCrowdsale);
+            kasei_crowdsale_address = address(kasei_crowdsale);
 
         // Set the `KaseiCoinCrowdsale` contract as a minter
             token.addMinter(kasei_crowdsale_address);
