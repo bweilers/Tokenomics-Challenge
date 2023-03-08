@@ -8,7 +8,10 @@ The central solidity file is
 Requires the download and install of Ganache and MetaMask
 
 ## Objectives
-- 
+- Create the KaseiCoin token contract.
+- Create the KaseiCoin crowdsale contract.
+- Create the KaseiCoin deployer contract.
+- Deploy the crowdsale to a local blockchain.
 
 ## Results and Data Story
 The result was a successfully deployed contract and token minting. Here is a series of screenshot that shows the progression of the token contract deployment.
